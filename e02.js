@@ -1,4 +1,5 @@
 function IsAPangrams(str){
+    str = str.toLowerCase();
     let pangram = false;
     let lstAsMaj = [];
     let lstAsMin = [];
@@ -29,5 +30,6 @@ function IsAPangrams(str){
     return pangram;
 }
 
-console.log(IsAPangrams("abcdefghijklmnoopqrstuvwxyz"));
+console.log(IsAPangrams("The quick brown fox jumps over the lazy dog"));
+console.log(IsAPangrams("Hello Efrei"));
 //Vérifier aussi pour les maj.
