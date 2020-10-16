@@ -47,5 +47,4 @@ function Shift(lst){
 //4.7
 function Diff(lst){
     let max = Max(lst);
-    
 }
